@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Computer Store</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="about-page">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="home.html">💻 Computer Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="addproduct.html">Add Product</a></li>
+          <li class="nav-item ms-2">
+            <a class="btn btn-outline-light position-relative" href="cart.html" id="cartBtn">
+              🛒 Cart
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cartCount">0</span>
+            </a>
+          </li>
+          <li class="nav-item ms-2">
+            <button id="logoutBtn" class="btn btn-outline-warning">Logout</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="card shadow-lg border-0 animate__animated animate__fadeInUp">
+      <div class="card-body text-center p-5">
+        <h2 class="card-title mb-4">About This Project</h2>
+        <p class="card-text fs-5">
+          This website is a <strong>mini e-commerce project</strong> designed for selling laptops and computer accessories.
+          It demonstrates the full user flow: login system, browsing products, adding to cart, and managing items.
+        </p>
+        <p class="card-text mt-4"><strong>Developer:</strong> Esmail Nofel</p>
+        <p class="card-text text-muted">
+          The goal of this project is to practice front-end development with 
+          <strong>HTML, CSS, JavaScript, Bootstrap, and SweetAlert</strong>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3 mt-auto">
+    <p class="mb-0">&copy; 2025 Computer Store. All rights reserved.</p>
+  </footer>
+
+  <script src="bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="script.js"></script>
+</body>
+</html>
